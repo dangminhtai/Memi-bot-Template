@@ -23,6 +23,8 @@ const Header: React.FC = () => {
           <a href="#features" className="text-slate-300 hover:text-violet-400 transition-colors">Tính Năng</a>
           <a href="#commands" className="text-slate-300 hover:text-violet-400 transition-colors">Lệnh</a>
           <a href="#testimonials" className="text-slate-300 hover:text-violet-400 transition-colors">Đánh Giá</a>
+          <a href="#pricing" className="text-slate-300 hover:text-violet-400 transition-colors">Gói Premium</a>
+          <a href="#chat-demo" className="text-slate-300 hover:text-violet-400 transition-colors">Chat Thử</a>
           <a href="https://discord.gg/yksE5pNDtk" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-violet-400 transition-colors">Hỗ Trợ</a>
         </nav>
         <a 

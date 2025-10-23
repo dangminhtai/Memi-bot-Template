@@ -36,10 +36,12 @@ const featuresData: Feature[] = [
 ];
 
 const FeatureCard: React.FC<Feature> = ({ icon, title, description }) => (
-  <div className="bg-slate-800/40 p-6 rounded-xl border border-slate-700/50 transition-all duration-300 hover:border-violet-400/50 hover:-translate-y-2 hover:shadow-2xl hover:shadow-violet-500/10">
-    <div className="mb-4">{icon}</div>
-    <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
-    <p className="text-slate-400">{description}</p>
+  <div className="card-glow-border bg-slate-800/40 p-6 rounded-xl transition-all duration-300 hover:-translate-y-1">
+    <div className="relative z-10">
+        <div className="mb-4">{icon}</div>
+        <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
+        <p className="text-slate-400">{description}</p>
+    </div>
   </div>
 );
 

@@ -24,17 +24,19 @@ const testimonialsData: Testimonial[] = [
 ];
 
 const TestimonialCard: React.FC<Testimonial> = ({ avatarUrl, name, title, quote }) => (
-  <div className="bg-slate-800/40 p-6 rounded-xl border border-slate-700/50 flex flex-col h-full">
-    <div className="flex text-amber-400 mb-4">
-        {[...Array(5)].map((_, i) => <StarIcon key={i} className="w-5 h-5" />)}
-    </div>
-    <p className="text-slate-300 italic flex-grow">"{quote}"</p>
-    <div className="flex items-center mt-6">
-      <img src={avatarUrl} alt={name} className="w-12 h-12 rounded-full mr-4" />
-      <div>
-        <h4 className="font-bold text-white">{name}</h4>
-        <p className="text-sm text-slate-400">{title}</p>
-      </div>
+  <div className="card-glow-border bg-slate-800/40 p-6 rounded-xl flex flex-col h-full transition-all duration-300 hover:-translate-y-1">
+    <div className="relative z-10 flex flex-col h-full">
+        <div className="flex text-amber-400 mb-4">
+            {[...Array(5)].map((_, i) => <StarIcon key={i} className="w-5 h-5" />)}
+        </div>
+        <p className="text-slate-300 italic flex-grow">"{quote}"</p>
+        <div className="flex items-center mt-6">
+          <img src={avatarUrl} alt={name} className="w-12 h-12 rounded-full mr-4" />
+          <div>
+            <h4 className="font-bold text-white">{name}</h4>
+            <p className="text-sm text-slate-400">{title}</p>
+          </div>
+        </div>
     </div>
   </div>
 );

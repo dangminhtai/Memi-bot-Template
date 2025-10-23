@@ -13,13 +13,13 @@ const commandsData: Command[] = [
 ];
 
 const CommandItem: React.FC<Command> = ({ name, description, isSlash }) => (
-    <div className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-slate-800/50 rounded-lg border border-slate-800 transition-colors hover:border-slate-700">
-        <div>
+    <div className="card-glow-border flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-slate-800/50 rounded-lg">
+        <div className="relative z-10">
             <code className="text-violet-400 font-mono text-lg">{name}</code>
             <p className="text-slate-400 mt-1">{description}</p>
         </div>
         {isSlash && (
-            <span className="mt-2 sm:mt-0 text-xs font-semibold bg-violet-600/30 text-violet-300 px-3 py-1 rounded-full">
+            <span className="relative z-10 mt-2 sm:mt-0 text-xs font-semibold bg-violet-600/30 text-violet-300 px-3 py-1 rounded-full">
                 Lệnh Slash
             </span>
         )}

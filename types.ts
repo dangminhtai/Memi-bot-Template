@@ -1,4 +1,3 @@
-
 import type React from 'react';
 
 export interface Feature {
@@ -18,4 +17,20 @@ export interface Testimonial {
   name: string;
   title: string;
   quote: string;
+}
+
+export interface ChatMessage {
+  sender: 'user' | 'bot';
+  text: string;
+  error?: boolean;
+}
+
+export interface PricingTier {
+    name: string;
+    price: string;
+    period: string;
+    features: string[];
+    isFeatured: boolean;
+    cta: string;
+    ctaLink: string;
 }

@@ -1,15 +1,11 @@
 import React from 'react';
-import { DiscordIcon } from './icons/Icons';
+import { DiscordIcon, ServerIcon, UsersIcon } from './icons/Icons';
 
 const Hero: React.FC = () => {
   return (
     <section className="relative py-24 md:py-32 text-center overflow-hidden">
-        <div 
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-violet-600/20 rounded-full blur-3xl"
-            aria-hidden="true"
-        ></div>
         <div className="container mx-auto px-6 relative z-10">
-            <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4 tracking-tighter">
                 Nâng Tầm Máy Chủ Discord Của Bạn
             </h1>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8">
@@ -20,7 +16,7 @@ const Hero: React.FC = () => {
                     href="https://discord.com/oauth2/authorize?client_id=1417332808422129714"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600 text-white font-bold px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-violet-500/30 w-full sm:w-auto justify-center"
+                    className="btn-glow flex items-center gap-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600 text-white font-bold px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-violet-500/30 w-full sm:w-auto justify-center"
                 >
                     <DiscordIcon className="w-6 h-6" />
                     <span>Mời Memi</span>
@@ -33,6 +29,17 @@ const Hero: React.FC = () => {
                 >
                     Tham gia máy chủ hỗ trợ
                 </a>
+            </div>
+             <div className="mt-12 flex justify-center items-center gap-8 text-slate-400">
+                <div className="flex items-center gap-2">
+                    <ServerIcon className="w-6 h-6 text-violet-400" />
+                    <span className="font-semibold"><span className="text-white font-bold">15,000+</span> máy chủ</span>
+                </div>
+                <div className="w-px h-6 bg-slate-700"></div>
+                <div className="flex items-center gap-2">
+                    <UsersIcon className="w-6 h-6 text-violet-400" />
+                    <span className="font-semibold"><span className="text-white font-bold">2 Triệu+</span> người dùng</span>
+                </div>
             </div>
         </div>
     </section>
