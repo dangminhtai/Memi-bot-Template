@@ -13,18 +13,22 @@ const Hero: React.FC = () => {
                 Nâng Tầm Máy Chủ Discord Của Bạn
             </h1>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-                Memi mang đến các tính năng mạnh mẽ về kiểm duyệt, giải trí, âm nhạc và tiện ích để tạo ra một cộng đồng sôi động và được quản lý tốt.
+                Memi tích hợp AI Gemini mạnh mẽ, biến máy chủ của bạn thành không gian học tập, giải trí và quản lý cộng đồng hiệu quả hơn bao giờ hết.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                 <a 
-                    href="#"
+                    href="https://discord.com/oauth2/authorize?client_id=1417332808422129714"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600 text-white font-bold px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-violet-500/30 w-full sm:w-auto justify-center"
                 >
                     <DiscordIcon className="w-6 h-6" />
                     <span>Mời Memi</span>
                 </a>
                 <a 
-                    href="#"
+                    href="https://discord.gg/yksE5pNDtk"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-slate-800/60 hover:bg-slate-700/80 border border-slate-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300 backdrop-blur-sm w-full sm:w-auto"
                 >
                     Tham gia máy chủ hỗ trợ

@@ -1,37 +1,37 @@
 import React from 'react';
 import { type Feature } from '../types';
-import { ShieldCheckIcon, MusicNoteIcon, PuzzleIcon, CogIcon, ChartBarIcon, UsersIcon } from './icons/Icons';
+import { BrainIcon, BookOpenIcon, ImageIcon, GlobeIcon, CogIcon, MicrophoneIcon } from './icons/Icons';
 
 const featuresData: Feature[] = [
   {
-    icon: <ShieldCheckIcon className="w-10 h-10 text-emerald-400" />,
-    title: "Kiểm Duyệt Nâng Cao",
-    description: "Tự động hóa việc kiểm duyệt với bộ lọc mạnh mẽ, nhật ký kiểm tra chi tiết và các lệnh trừng phạt dễ sử dụng."
+    icon: <BrainIcon className="w-10 h-10 text-violet-400" />,
+    title: "Trí Tuệ Hội Thoại",
+    description: "Tích hợp Gemini API, Memi có thể trò chuyện tự nhiên, ghi nhớ ngữ cảnh và 'nhân hóa' hội thoại để tương tác gần gũi hơn."
   },
   {
-    icon: <MusicNoteIcon className="w-10 h-10 text-rose-400" />,
-    title: "Âm Nhạc Chất Lượng Cao",
-    description: "Phát nhạc từ YouTube, Spotify và hơn thế nữa với chất lượng âm thanh nguyên bản và không bị gián đoạn."
+    icon: <BookOpenIcon className="w-10 h-10 text-sky-400" />,
+    title: "Hỗ Trợ Học Tập",
+    description: "Giải thích khái niệm, hướng dẫn viết code, tóm tắt tài liệu và phân tích nội dung từ tệp đính kèm (văn bản, hình ảnh)."
   },
   {
-    icon: <PuzzleIcon className="w-10 h-10 text-amber-400" />,
-    title: "Trò Chơi Tương Tác",
-    description: "Gắn kết cộng đồng của bạn với các trò chơi đố vui, kinh tế và các trò chơi nhỏ thú vị khác."
+    icon: <ImageIcon className="w-10 h-10 text-emerald-400" />,
+    title: "Sáng Tạo Đa Phương Tiện",
+    description: "Tạo ra những hình ảnh độc đáo từ mô tả văn bản, biến ý tưởng của bạn thành hiện thực một cách nhanh chóng."
   },
   {
-    icon: <CogIcon className="w-10 h-10 text-sky-400" />,
-    title: "Tùy Chỉnh Dễ Dàng",
-    description: "Cấu hình tiền tố, tin nhắn chào mừng, vai trò tự động và nhiều hơn nữa thông qua bảng điều khiển web trực quan."
+    icon: <GlobeIcon className="w-10 h-10 text-rose-400" />,
+    title: "Tích Hợp Google Search",
+    description: "Cung cấp thông tin chính xác và cập nhật về các sự kiện mới nhất, đảm bảo câu trả lời luôn phù hợp với thực tế."
   },
   {
-    icon: <ChartBarIcon className="w-10 h-10 text-orange-400" />,
-    title: "Hệ Thống Lên Cấp",
-    description: "Thưởng cho các thành viên tích cực bằng hệ thống lên cấp và các vai trò có thể tùy chỉnh để mở khóa."
+    icon: <CogIcon className="w-10 h-10 text-amber-400" />,
+    title: "Function Calling & Quản Lý",
+    description: "Thực thi các hành động như tạo kênh, gán vai trò, ban/kick người dùng chỉ bằng ngôn ngữ tự nhiên, tự động hóa việc quản lý server."
   },
   {
-    icon: <UsersIcon className="w-10 h-10 text-fuchsia-400" />,
-    title: "Vai Trò Phản Ứng",
-    description: "Cho phép người dùng tự gán vai trò cho mình bằng cách phản ứng với tin nhắn, giúp đơn giản hóa việc quản lý vai trò."
+    icon: <MicrophoneIcon className="w-10 h-10 text-fuchsia-400" />,
+    title: "Giao Tiếp Bằng Giọng Nói",
+    description: "Tham gia vào các cuộc trò chuyện thoại thời gian thực, mang lại trải nghiệm tương tác sống động và trực tiếp hơn."
   }
 ];
 

@@ -5,21 +5,21 @@ import { StarIcon } from './icons/Icons';
 const testimonialsData: Testimonial[] = [
   {
     avatarUrl: "https://picsum.photos/id/1005/100/100",
-    name: "Jane Doe",
-    title: "Chủ sở hữu máy chủ Gaming",
-    quote: "Memi đã thay đổi hoàn toàn cách chúng tôi quản lý cộng đồng. Các tính năng kiểm duyệt tự động giúp chúng tôi tiết kiệm hàng giờ mỗi ngày. Không thể thiếu!"
+    name: "Minh Anh",
+    title: "Sinh viên IT",
+    quote: "Memi đã trở thành trợ thủ học tập đắc lực của mình. Từ việc giải thích các thuật toán phức tạp đến tóm tắt tài liệu, nó giúp mình tiết kiệm rất nhiều thời gian."
   },
   {
     avatarUrl: "https://picsum.photos/id/1011/100/100",
     name: "John Smith",
     title: "Quản trị viên cộng đồng",
-    quote: "Tính năng âm nhạc là tốt nhất tôi từng thấy. Chất lượng âm thanh tuyệt vời và không bao giờ bị trễ. Các thành viên của chúng tôi rất thích nó."
+    quote: "Tính năng Function Calling thật tuyệt vời. Giờ đây mình có thể tự động hóa các tác vụ quản lý server chỉ bằng một câu lệnh tự nhiên. Memi thực sự thông minh và hiệu quả."
   },
   {
     avatarUrl: "https://picsum.photos/id/1027/100/100",
     name: "Alex Johnson",
     title: "Người sáng tạo nội dung",
-    quote: "Tôi yêu thích hệ thống cấp độ và các trò chơi tương tác. Nó thực sự giúp tăng cường sự gắn kết và giữ cho các cuộc trò chuyện luôn sôi nổi và vui vẻ."
+    quote: "Mình rất thích tính năng tạo ảnh của Memi. Chỉ cần mô tả ý tưởng là có ngay một tác phẩm nghệ thuật để chia sẻ với mọi người. Nó giúp server của chúng mình trở nên sáng tạo hơn!"
   }
 ];
 

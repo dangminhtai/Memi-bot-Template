@@ -2,12 +2,12 @@ import React from 'react';
 import { type Command } from '../types';
 
 const commandsData: Command[] = [
-    { name: "/play [bài hát]", description: "Phát một bài hát từ YouTube hoặc Spotify trong kênh thoại.", isSlash: true },
-    { name: "/ban [người dùng] [lý do]", description: "Cấm một người dùng khỏi máy chủ vĩnh viễn.", isSlash: true },
-    { name: "/kick [người dùng] [lý do]", description: "Đuổi một người dùng khỏi máy chủ.", isSlash: true },
-    { name: "/mute [người dùng] [thời gian]", description: "Tắt tiếng một người dùng trong một khoảng thời gian nhất định.", isSlash: true },
-    { name: "/rank", description: "Kiểm tra xếp hạng và cấp độ của bạn trong máy chủ.", isSlash: true },
-    { name: "!help", description: "Hiển thị danh sách tất cả các lệnh có sẵn.", isSlash: false },
+    { name: "/ask [câu hỏi]", description: "Trò chuyện và đặt câu hỏi trực tiếp với AI Gemini.", isSlash: true },
+    { name: "/imagine [mô tả]", description: "Tạo một hình ảnh độc đáo dựa trên mô tả của bạn.", isSlash: true },
+    { name: "/summarize [link/tệp]", description: "Tóm tắt nội dung từ một liên kết web hoặc tệp đính kèm.", isSlash: true },
+    { name: "/search [chủ đề]", description: "Tìm kiếm thông tin cập nhật bằng Google Search.", isSlash: true },
+    { name: "/reset-chat", description: "Xóa lịch sử trò chuyện cũ để bắt đầu một cuộc hội thoại mới.", isSlash: true },
+    { name: "/help", description: "Hiển thị danh sách tất cả các lệnh có sẵn và hướng dẫn sử dụng.", isSlash: true },
     { name: "!meme", description: "Hiển thị một meme ngẫu nhiên từ reddit.", isSlash: false },
     { name: "!weather [thành phố]", description: "Lấy thông tin thời tiết hiện tại cho một thành phố.", isSlash: false },
 ];
